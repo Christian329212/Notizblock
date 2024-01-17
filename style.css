@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.input {
+    height: 40px;
+    padding: 5px 50px 5px 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.create-button {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.create-button:hover {
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+}
+
+.card {
+    width: 300px;
+    height: 115px;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.delete-button {
+    padding: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 39px;
+    margin-left: 263px;
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.add-notes-container {
+    text-align: center;
+}
+
+.trash-img {
+    width: 50px;
+    margin-top: 50px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.trash {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.trash:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.note {
+    width: 300px;
+    height: 100px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.notesIcon {
+    height: 20px;
+}
+
+.notesBtn {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
